@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clay Tennis Courts</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Fraunces:opsz,wght@9..144,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="meta">
+        <h1>Terpconnect Static Site</h1>
+        <h2>Render Info</h2>
+        <ul>
+          <li><strong>Name:</strong> Aadit Krishna</li>
+          <li>
+            <strong>Render Location:</strong>
+            <a href="https://aadi-tennis-site.onrender.com/"
+              >https://aadi-tennis-site.onrender.com/</a
+            >
+          </li>
+        </ul>
+        <strong>Last Modified: </strong
+        ><!--#echo var="LAST_MODIFIED" --><br />
+      </header>
+
+      <main>
+        <h2>Clay Court Notes</h2>
+        <p>
+          Tennis is a sport of geometry and patience. This page is a short field
+          guide to the surface I like most: clay. Longer rallies, heavier balls,
+          and more time to think between shots.
+        </p>
+
+        <h2>Surface comparison</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Surface</th>
+              <th>Typical bounce</th>
+              <th>What it rewards</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Clay</td>
+              <td>High and slow</td>
+              <td>Footwork, topspin, endurance</td>
+            </tr>
+            <tr>
+              <td>Hard</td>
+              <td>Medium and true</td>
+              <td>Balanced offense and defense</td>
+            </tr>
+            <tr>
+              <td>Grass</td>
+              <td>Low and skiddy</td>
+              <td>Serve, slice, first-strike tennis</td>
+            </tr>
+            <tr>
+              <td>Indoor hard</td>
+              <td>Fast and consistent</td>
+              <td>Clean timing and return of serve</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>A clay-court rally worth watching</h2>
+        <p>
+          Here is an example of a match played on a clay court.
+          <a href="https://www.youtube.com/watch?v=dOkgz5BCxcQ"
+            >Watch the YouTube video</a
+          >.
+        </p>
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/dOkgz5BCxcQ"
+            title="Nadal vs Djokovic Roland-Garros 2014 highlights"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
